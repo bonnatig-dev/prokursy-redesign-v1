@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600&family=Inter+Tight:ital,wght@0,400;0,500;0,600;1,400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --t-headline-font: 'Golos Text', Arial, sans-serif;
+  --t-text-font: 'Inter Tight', Arial, sans-serif;
+}
+
+html {
+  overflow-x: clip;
+}
+
+body {
+  margin: 0;
+  font-family: var(--t-text-font);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: clip;
+  background: #f6e4cf;
+  color: #321c04;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--t-headline-font);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-kenburns {
+    animation: none !important;
+  }
+}
