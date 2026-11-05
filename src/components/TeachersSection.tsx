@@ -85,8 +85,8 @@ export function TeachersSection() {
   }, [slideBy])
 
   return (
-    <section id="teachers" className="relative z-10 bg-[#F6E4CF] px-6 py-20 md:px-10 md:py-28">
-      <div className="mx-auto max-w-7xl">
+    <section id="teachers" className="relative z-10 bg-[#F6E4CF] py-20 md:py-28">
+      <div className="shell">
         <div className="mb-10 flex flex-wrap items-end justify-between gap-4">
           <div>
             <p className="text-sm font-medium uppercase tracking-widest text-[#321C04]/70">Преподаватели</p>

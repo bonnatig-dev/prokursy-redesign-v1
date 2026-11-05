@@ -6,8 +6,8 @@ const MAP =
 
 export function AboutSection() {
   return (
-    <section id="about" className="relative z-10 rounded-t-[25px] bg-[#F6E4CF] px-6 py-20 md:py-32">
-      <div className="mx-auto max-w-3xl">
+    <section id="about" className="relative z-10 rounded-t-[25px] bg-[#F6E4CF] py-20 md:py-32">
+      <div className="shell">
         <p className="mx-auto max-w-lg text-center text-base leading-relaxed text-[#321C04] md:text-lg">
           Мы работаем в Витебске больше 15 лет. Готовим мастеров для сети парикмахерских «БиGOODи» и
           по заявкам предприятий — с теорией и практикой на живых моделях.
@@ -42,7 +42,7 @@ export function AboutSection() {
         <span className="h-2 w-2 rounded-full bg-[#D9C4AA]" />
       </div>
 
-      <div className="mx-auto mt-16 flex max-w-6xl flex-col gap-10 md:flex-row md:items-start md:gap-16">
+      <div className="mt-16 flex flex-col gap-10 md:flex-row md:items-start md:gap-16">
         <div className="flex shrink-0 items-center gap-3 md:flex-col md:items-start">
           <Mark />
           <p className="font-headline text-xs font-semibold uppercase tracking-widest text-[#321C04]">

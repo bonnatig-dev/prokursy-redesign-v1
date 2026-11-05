@@ -34,3 +34,10 @@ h3 {
     animation: none !important;
   }
 }
+
+
+@layer components {
+  .shell {
+    @apply mx-auto w-full max-w-[1560px] px-5 md:px-8;
+  }
+}

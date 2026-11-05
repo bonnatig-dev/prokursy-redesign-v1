@@ -5,8 +5,8 @@ const MAP =
 
 export function ContactsSection() {
   return (
-    <section id="contact" className="relative z-10 bg-[#FFF9F2] px-6 py-20 md:px-10 md:py-28">
-      <div className="mx-auto grid max-w-6xl gap-12 md:grid-cols-2">
+    <section id="contact" className="relative z-10 bg-[#FFF9F2] py-20 md:py-28">
+      <div className="shell grid gap-12 md:grid-cols-2">
         <div>
           <p className="text-sm font-medium uppercase tracking-widest text-[#321C04]/70">Запись</p>
           <h2 className="mt-2 font-headline text-3xl text-[#321C04] md:text-5xl">Позвоните или приезжайте в учебный центр</h2>

@@ -23,8 +23,8 @@ const FAQ = [
 
 export function FaqSection() {
   return (
-    <section id="faq" className="relative z-10 bg-[#F6E4CF] px-6 py-20 md:px-10 md:py-28">
-      <div className="mx-auto max-w-3xl">
+    <section id="faq" className="relative z-10 bg-[#F6E4CF] py-20 md:py-28">
+      <div className="shell">
         <p className="text-sm font-medium uppercase tracking-widest text-[#321C04]/70">Вопросы</p>
         <h2 className="mt-2 font-headline text-3xl text-[#321C04] md:text-5xl">Частые вопросы</h2>
         <div className="mt-10 divide-y divide-[#321C04]/15 border-y border-[#321C04]/15">

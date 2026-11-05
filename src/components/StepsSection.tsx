@@ -19,8 +19,8 @@ const STEPS = [
 
 export function StepsSection() {
   return (
-    <section id="howto" className="relative z-10 bg-[#FFF9F2] px-6 py-20 md:px-10 md:py-28">
-      <div className="mx-auto max-w-5xl">
+    <section id="howto" className="relative z-10 bg-[#FFF9F2] py-20 md:py-28">
+      <div className="shell">
         <p className="text-sm font-medium uppercase tracking-widest text-[#321C04]/70">Как проходит обучение</p>
         <h2 className="mt-2 font-headline text-3xl text-[#321C04] md:text-5xl">От звонка до первого занятия</h2>
         <ol className="mt-12 grid gap-6 md:grid-cols-2">

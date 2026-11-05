@@ -18,7 +18,7 @@ export default function App() {
         />
         <div className="absolute inset-0 bg-black/20" />
         <Navbar />
-        <div className="relative z-10 flex h-full flex-col justify-end px-5 pb-12 md:pb-16">
+        <div className="shell relative z-10 flex h-full flex-col justify-end pb-12 md:pb-16">
           <h1 className="text-center font-headline text-5xl font-normal leading-[1.1] tracking-tight text-white sm:text-7xl md:text-8xl lg:text-[96px]">
             Учимся на живых
             <br />

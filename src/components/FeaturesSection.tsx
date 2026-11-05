@@ -120,7 +120,7 @@ export function FeaturesSection() {
   }
 
   return (
-    <section id="directions" className="relative overflow-x-clip px-5 py-20 md:px-10 md:py-40 lg:px-16 lg:py-48">
+    <section id="directions" className="relative overflow-x-clip py-20 md:py-40 lg:py-48">
       <img
         src="./images/features-bg.webp"
         alt=""
@@ -128,7 +128,7 @@ export function FeaturesSection() {
       />
       <div className="fixed inset-0 -z-10 bg-black/40" aria-hidden="true" />
 
-      <div className="mx-auto grid max-w-7xl gap-24 lg:grid-cols-[400px_1fr] xl:grid-cols-[460px_1fr] xl:gap-48">
+      <div className="shell grid gap-24 lg:grid-cols-[400px_1fr] xl:grid-cols-[460px_1fr] xl:gap-24">
         <div className="lg:sticky lg:top-0 lg:flex lg:h-screen lg:flex-col lg:justify-between lg:py-32">
           <div>
             <h2 className="font-headline text-2xl font-normal leading-[1.2] text-white sm:text-3xl lg:text-[46px]">
